@@ -51,4 +51,11 @@
     li $v0, 4
     la $a0, newLine
     syscall
+    
+    li $v0, 1
+    move $a0, $s3
+    syscall
+    
+    li $v0, 10 
+    syscall 
   

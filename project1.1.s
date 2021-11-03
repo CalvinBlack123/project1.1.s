@@ -6,4 +6,5 @@
  .text
  
   main:
-  li 
+  li $v0, 8
+  

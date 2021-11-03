@@ -46,4 +46,9 @@
     sub $s2, $s2, 48
     add $s3, $s3, $s2
     j iterator
+    
+    print:
+    li $v0, 4
+    la $a0, newLine
+    syscall
   

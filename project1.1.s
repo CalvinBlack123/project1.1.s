@@ -41,4 +41,8 @@
     add $s3, $s3, $s2
     j iterator
     
+    num:
+    bge $s2, 58 iterator
+    sub $s2, $s2, 48
+   
   

@@ -7,4 +7,5 @@
  
   main:
   li $v0, 8
+  la $a0, userInput
   

@@ -31,5 +31,8 @@
     
     low:
     bge $s2, 123 iterator
+    sub $s2, $s2, 87
+    add $s3, $s3, $s2
+    j iterator
     
   

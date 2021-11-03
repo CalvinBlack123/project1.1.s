@@ -13,4 +13,8 @@
 
   load_input:
   move $t3, $a0
+  lb $s2, ($t3)
+
+    check:
+    beq $t0, 10, print
   

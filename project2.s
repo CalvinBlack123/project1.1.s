@@ -34,3 +34,9 @@ bge $t3, 1, invalid
 addi $t1, $t1, 1
 j check
 
+check:
+beq $s0, 9, gap
+beq $s0, 32, gap
+beq $s0, 10, convert
+beq $s0, 0, convert
+

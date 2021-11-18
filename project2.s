@@ -53,3 +53,4 @@ j invalid
 gap:
 addi $t2, $t2, 1
 mul $t3, $t3, $t7
+j during

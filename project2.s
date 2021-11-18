@@ -65,3 +65,5 @@ blt $t2,0,finish
 move $t8, $t2
 ble $s0, 57, num
 ble $s0, 84, upper
+ble $s0, 116, lower
+
